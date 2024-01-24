@@ -1,0 +1,47 @@
+Verilen bir yöntemin, giriş parametrelerine
+ve dış faktörlere bağlı olarak belirli hata
+türlerini döndürebilen bir yöntem olduğu bir senaryo oluşturun.
+ ----------------------------------
+Yöntemi çağırmak,
+hataları düzgün şekilde işlemek
+ve hataların hangi koşullarda geri döndüğünü
+-------------------------------------
+
+anlamak  için bir test yazın.
+-----------------
+serkan cura:
+exception handle edebilecegınız herhangı bir
+ metot yazabilirsiniz bir sını yok sadece
+ try catc blogunu kullanmanız gerekıyor
+hangi exceptionları secmek ıstersneız onu secin.
+----------------------------------------
+Yapılıs amacı/exception handling yaptık:
+exceptionları olusturdum
+try ve cath bloklarını buluyoruz hataları bulmak adına exceptionları ıcerısıne yazıyoruz
+hata olsutuysa su ıslmeı yap bu hataysa bu dıye ıslemr yaptıyoruz
+excepton tulerını catch bloklarını ıcerısıne yazıyoruz
+
+arıtmetık exceptıon turu yazsaydık ne olurdu
+hatalarımı buluyoruz program son bulmuyor
+ama exceptıon handle yapmasaydık proramızı otomatık duracaktı
+e.printstackTrace =metodu hatanın java tarafındakı esajını soylemıs oluyor
+Printstacetrace alttala ınıyor hangı exceptıon oldugunu soyluyor
+---------------------------------------------------
+Mekana Giris acıklaması:
+Kendi olsuturdugumuz EXCEPTIONLARIMIZ ISTEDIGIMIZ ZAMAN FIRLATABILIYORUZ
+Throw ile fırlatım saglandı
+scnner sıfını ıle dırek olarak consoldan alıyoruz
+scanner dan yaşı kullanıcdan aldık
+yadıgım metodda java excepton fırlatmıyor ama ben excepıon fırlatmasını ıstıyorum
+throw exception fırlat dıyoruz
+bu örnekde kendi exception larımı fırlatma kodunu  yazdım egerki kullanıcı
+18 yasından kucuk ıse trow anahtar kelimesı ıle exception fırlatmayı gösterdim.
+
+
+
+
+
+
+
+
+
