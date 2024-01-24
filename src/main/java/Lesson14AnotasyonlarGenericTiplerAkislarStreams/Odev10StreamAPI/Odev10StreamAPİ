@@ -1,0 +1,26 @@
+1- Generic bir alan içeren bir sınıf ve bu alanı
+yazdıran bir metod yazın.
+
+2- Bir koleksiyonu ve bulunacak bir öğeyi kabul eden
+bir metod yazın.
+Metod, eğer böyle bir öğe yoksa -1 değerini, öğe varsa öğeyi
+döndürmelidir.
+
+(Döngü kullanmayın. Çözüm Stream API ile oluşturulmalıdır.)
+Not: Bu ödev için her maddeyi ayrı ayrı yapabilirsiniz.
+----------------------------------------------------
+
+stream akis edmek yaı bu ornekde user lıstesındeN SIRAYLA GIDIP
+  gezerek işlme yapma ozellıgn esahip CESITLI FONKSOYIONALR YAPARAK
+
+  Her bir eleman ıcın foraceh tum lısteyı ıtere edıcek yazdırrıcak sonrasında
+  execute olucak
+  her bır user ıcın tostrong metodu ıle cagırıyoruz
+
+  lambda fonksıyonda parametre alıyoruz o parametre ıcın yapacgımız ısı ıcıne yazıyoruz
+stream daha compact daha readble kodlar yazabılıuyorz kısa ve oz olarak
+
+:: references her bır user cın olsutrudugmuz metodları cagırır
+-----------------------------
+lambda ve stream kullnılarak P ile baslayan isimleri listeledi
+dongu sonlandı

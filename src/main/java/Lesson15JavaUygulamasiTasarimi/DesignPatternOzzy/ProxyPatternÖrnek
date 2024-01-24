@@ -1,0 +1,31 @@
+GoF un Proxy (Vekil) tasarım
+kalıbı ile cözümleme:
+
+sorumluulkarı bulup o sorumluluları objeere karsı getırıypruz:
+------------------------------------------------
+Sorumluluklar:
+-Başbakan
+dert dınleme
+is bulmak
+
+-Vatandas:
+basbakan a derdini anlatamka
+Başbakan dan is istemek
+------------------------------------------------------------
+2 nesne olusturduk:
+Vekilbasbakan
+Gercekbasbakan
+
+Vatandas vatandaslık kalmeıne gırdıgınde basbakanı verıyor bunun instance nı verıyor.Vatandas eger basbakalık kalemıne gırıp de bugun basbakalna gorumem var 3 de dedıgınde;
+Buyrun basbakan hazır sızı beklıyor diye cevap verdıgınde  vatandasın gorustugu BASBAKAN ıt looks like a basbakan.
+
+Basbakan ınterfacenın bir instancı oluyor ama gercekte vekil başbakanla gorusmus olucak!bunu vatandas anlıyabılır mı anlıyamaz normalde basbakanın gercek tıpını anlayamaz buna polimorfizim deniyor.Ikı nesnenın bırbırlerıyel haberlesıp, birbirinin gercek tipini bilmemeye polimorfizim denir peki vekil basbakanla konsuunca ne yapar?velil basbakanı ıcınde bır ınstane variable varki basbakan gibi aynı tıpden obje tutuyor ama vekil basbakanın gercek tipi gercek basbakan yani,
+Gerbasbakanın 1 tek instance var onada vekilbasbakan ulasıyor tablodakı ılsıkıler bunu gosterıyor.
+Sonuc:
+Vatandas basbaknal konuyor mutlu umu mutlu
+Basbakan mutlu  mu mutlu?ayıklayıcı bu kısı
+Vekıl basbakan tum ıslrı halledıyor bunların cınde gercekbasbakan cagırıyor mesele arka planda basbakan saklamak gercekte vatandas basbakanla gorustugunu dusunuyor!
+
+
+
+

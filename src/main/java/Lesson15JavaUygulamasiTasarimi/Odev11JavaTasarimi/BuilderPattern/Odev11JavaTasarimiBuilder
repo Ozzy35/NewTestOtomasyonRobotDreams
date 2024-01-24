@@ -1,0 +1,46 @@
+Basit bir Singleton ve Builder tasarım
+deseni gerçekleştiren bir örnek yazın.
+-----------------------------------------------
+Tasarım Desenleri
+Tasarım desenleri, yazılım geliştirme sürecinde
+karşılaşılan sorunlara çözüm sağlamak için geliştirilmiş
+tekrar kullanılabilir çözüm şablonlarıdır. Java gibi nesne
+yönelimli programlama dillerinde yaygın olarak kullanılırlar.
+---------------------------------------
+Consider a builder when faced with many
+constructor parameters
+Builder Tasarım Deseni:
+insanlar belirli opsıyonları kullanarak
+ baska bir ahve de olusturabilir
+
+ 2 tane ayrı metod yazıldı uretmek ıstedıgımız starbusk buılder sınfından
+ uretmedık ıstedıgımız bırsey
+
+ 35.cı redde this dediğimzide ıcerısne
+  bir builder alıyor
+
+  builder pattern temel kulanımı yazdık
+  main metodua:
+temel:
+opsıyonel parametreler cok olmalı
+parametlreler 6dan fazla degere cıktıgında tercıh edılıyor
+cok komplex olmayan bir sınıfınız var ıse ıcerısndekıler gerkelı
+parametreler ise builder pattenr tercih eidliyor
+
+dezavantajı:
+birsey gereksız kullanırsanız
+her turlu zararlı
+builder pattern bısr sınıf 2 degısken var ıkısde gereklı burada
+builder pattern kulanılmıyor
+
+belirli opsıyonlar kulanarak yenı bır have uretebılırız
+
+
+
+
+
+
+
+
+
+

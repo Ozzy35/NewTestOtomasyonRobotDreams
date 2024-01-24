@@ -1,0 +1,68 @@
+Basit bir Singleton ve Builder tasarım
+deseni gerçekleştiren bir örnek yazın.
+------------------------------------------------------------------
+Design Pattern nedir?(TASARIM KALIPLARI)
+Pattern: kalıp ve sablon gibi kalıpların örnegi
+
+--------------------------
+acıklama:
+Tasarım Desenleri
+Tasarım desenleri, yazılım geliştirme sürecinde
+karşılaşılan sorunlara çözüm sağlamak için geliştirilmiş
+tekrar kullanılabilir çözüm şablonlarıdır. Java gibi nesne
+yönelimli programlama dillerinde yaygın olarak kullanılırlar.
+--------------------------------------
+Singleton Tasarım Deseni:
+Sadece bir örneği olan bir sınıf
+oluşturmak için kullanılır.
+Bu desen, sınıfın tek bir örneğini oluşturur
+ ve uygulama boyunca bu örneğe erişim sağlar.
+----------------------------------------------------------------
+Builder Tasarım Deseni:
+Karmaşık nesnelerin oluşturulmasını
+ kolaylaştırmak için kullanılır.
+Nesne oluşturma sürecini adım adım gerçekleştirir ve sonuç olarak
+karmaşık bir nesne oluşturur.
+------------------------------------
+bı class olsusturudgumuzda bır
+ınstance ıstıyorsak sıngleton lullanıyoruz
+daga fazla ornek retılmesını ıstemıyoruz
+
+sıgletonornegı constructorlar olsuturuldu
+getınstance burda sıngleton ornegı dondurcek
+benzersız 1 tane ınsatnce olusacagı ıcın
+benzersı ornek ınsatnce yaratıcak
+null verıyoruz kontrol eedıyoruz daha once olsurturudk mu?
+sıngeton ornegı olsutruyor return etcek olsuturysa ıcerısne hıc
+gırmıycez ornegı dondurucek
+private static int ile metd gırdık dondurduk
+degeri 1 tane arttırarak dondurduk
+
+mainden bunu nasıl caıgırıcaz?
+sonuc:
+ayrı 2 ıntsance olsutrduk ıksıde
+class uzerınde farllı ıslmelry yapmıyor
+
+bu classın 1 tane ornegı var ıstedıgın
+kadar ınsatce olsutursak bıle yenı bır onerke degıl
+sıngletonornegı uzerıdne calısmal yapıyor
+bir classın tek bir insatce olmasını
+ıstıyorsak kullanıyoruz
+
+ornek 2 yada ornek 3 un
+degerınıde alsak sonuc hep 16 ckıcak
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

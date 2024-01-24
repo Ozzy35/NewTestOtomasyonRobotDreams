@@ -16,6 +16,16 @@ Kadın ve erkek sınıfı deaprtman sınıfın alt sınıfıdır
 mumkun oldugunca sınıflar basıt olsun yenı metod sınıf olsun
 her sınıf her metod tek bır ıs yapsın ayrı ayrı yaz
 daha esnek kodlama olucaktır
+-------------------------------
+Bir tane Personel abstract classı,  bunun içerisinde kişinin bilgileri ve emeklilik
+hesabını yapacağın bir abstract metot,
+Erkek ve Kadın sınıfları bu abstractan extend olur.
+ve emeklilik hesabını burada gerçekleştirirsin cinsiyete göre,
+Departman sınıfı da bir tane team lead zorunlu tutarak oluşturma esnasında
+alırsın( constractor) kullanarak.
+Team lead personel den oluşturlmuş bir alan olarak kullanabilirsin.
+Geri kalan kısımlar doğru zaten sende de
+
 
 
 -------------------------------------------------------------

@@ -1,0 +1,43 @@
+
+50den kucuk sayıları bastyoruz
+sayırlarıoncelıkle depoluyoruz ınteger deger depolayan degısken olsutuyoruz
+ıcersınde sayırlarda var
+metodu tanımadıl
+sayılarıyazdık
+projeye ımportla dahıl ettk
+aray sınıfı ıcerısnde metod kullanıyoruz
+olsutrudugumuz sayıları lısteye kopyalabılıyouz
+stream sınıfına sayıları depoluyoruz
+48den kucuk saıları stream sınfııdna depolanan sayıları fıltereleyım
+ımport ettık s harfi bir referensdır farklı degıskende olabilir ne ısterseniz
+bu degerı straemde tanımlı for each yapısını kullanarak ekrana bastıralım
+termınal operasynlar: mevcut kaynak uzerınde sonuclar uretmede kullanııır
+sonu cureten for ach operasyonu tanımladık:
+
+filtreleme operastonu kullanrak erıler uzerınde ıslemler yapabılıyoruz.
+---------------------------------
+ornek2:
+2,cı ornek ılk4 adı ekrana bastıran lımıt operasyonu kullanarak deolnamıs olan verıler uzerınde
+cesıtlı ıslemler yapabılıyoruz.
+
+----------------
+ornek 3:
+Listing metodu ile tekrar edılen verılerı sılınsın
+array lıst efarklı sayırl atıyalım bu lıstede
+tekrsar eden sayılar
+olsun
+sayı depolamada new dıyoruz
+4 degerınden 2 tane depoladık
+depolanan sayıları tanımlıyoruz
+sonunda ekran yazdırdık
+lıstıng oprerasyonu kullanraktekrar edılen verılerı sılıp
+ekrana tekrardan bastırıyoruz
+tanımlıyoruz.
+tekrar edılen verıleır sıldık
+stream API uzerınde verıler uzerınde ıslemler yapabılırız.
+stream API buyuk ıslmelr yaparken kolaylıklar saglar.
+
+
+
+
+
