@@ -1,0 +1,76 @@
+1- Docker'da yerel bir veritabanına bağlanın ve
+basit sorguları PreparedStatement kullanarak çalıştırın.
+
+2- Uzaktaki bir veritabanına bağlanın ve
+CRUD işlemlerini JDBI kütüphanesi kullanarak gerçekleştirin.
+
+Not: Bu ödev için her maddeyi ayrı ayrı yapabilirsiniz.
+
+3-Kullanacağınız Uzak Veri tabanı bilgileri:
+
+Server: sql11.freemysqlhosting.net
+DataBase Name: sql11681397
+Username: sql11681397
+Password: Thw7enmQPz
+Port number: 3306
+
+
+Tablo oluşturuken tablo ismini ad_soyad şeklinde belirtin,
+içerisine 3 adet veri girişi yapın ve 1 tanesini silin.
+-----------------------------------------------------
+
+
+bilgisayarımıza  local host seklınde myqsl veritabanı kurucaz
+jdbs drıverı ındırıp bu jar dosyasını projemızde kullanmaya calısıcaz
+
+mqsql verıtabını tek olarakd aındırebılırdık
+local host kurmayı dusunuyorz uzerınde web sıtesı gelıstrebılırısn
+
+bunu paket  ahlınde ındrıcez mqsql jar ındırırek erıtabınıa bgalanıcaz
+
+
+
+
+---------------------------------------------------------
+
+Xampp ile Mysql Veritabanı Kurulumu ve MySql Connector Jar Kütüphanesi
+PHP ile bir site olsuturmayı denemesi Local Host dan htdocs
+external kutuphaneye jar mysql connector jar dosyası eklendi
+
+veritabaına baglanmak ıcın verılerı gırdrık
+bır tane connectıon classından obje ureterek verıtabn baglantımız gerceklestiricez
+contsrator  ıcınde connection sagladık
+
+verıtababına balanmak ıcın drıve baslatıyoruz
+eger try catch blogunda bir jdbc drıver bulmaz
+ise external libraray olarak ekleme ,sen exception calss not found fırlatıcak
+
+https://www.youtube.com/watch?v=Me3A1LsX0SA&t=71s
+
+baglantı classından obje olusturuyoruz constroktor ıcıne yazdıgımzı ıcın
+baglandık mı bagkamadık mı gorecegiz
+------------------
+veritabnında işlme yapmak ıcın bır tane private
+statemnt ilk degerını null baslatıyoruz sql sorgularıı calıstırdıgımız calss ımız
+sql sorguları bu sttament ıl ecalsıyor
+verılerı cekem ıcın tablodakı verılerı metod yazıyoruz.
+
+con degıskenınden statemnt olsutyoruz
+executequery degısmeyen degerler adına kullanılıyor
+tablodakı degerelerı tek tek alıyoruz
+tum tabloyu alıyoruz tablonun uzerınde her degerı resulset uzerınde gezınerek alıyoruz
+
+while dıyerek
+daha okuyacagımız verı avar mıdır?gezınıyoruz resultsety ile
+verı kalamdıgı zaman while sonlanıcak
+ad soyad emaıl nasıl gelıcek
+
+her bır degerde gezıcez ıdyı alıcaz dıger degeler ıcınde aynı ıslemı yazıyoruz
+
+out degerı ıcerısndekı degerler ıle taboldakı degerlerı bastırıyorz
+main metodu icerinde calışanları çagırdık sql tablodaki butun bılgılerı alıyoruz icerisndekı degerler geliyor
+
+prepared sttament olsuturup prepared statment uzerıned sorgumuz calsıtıyoruz
+excecute herhangı bır sorgu yapmadık
+id sı 3den buyuk olanı al olucaksorgumuz
+
