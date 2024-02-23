@@ -1,4 +1,4 @@
-package Lesson18JUnitTestNGTestCerceveleriveVeriOdakliTestDataDrivenTesting;
+package Lesson18JUnitTestNgTestCerceveleriveVeriOdakliTestDataDrivenTesting;
 
 import lombok.*;
 

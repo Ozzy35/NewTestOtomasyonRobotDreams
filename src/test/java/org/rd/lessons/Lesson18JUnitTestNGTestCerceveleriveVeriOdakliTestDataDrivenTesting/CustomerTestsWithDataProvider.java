@@ -1,6 +1,6 @@
-package org.rd.lessons.Lesson18JUnitTestNGTestCerceveleriveVeriOdakliTestDataDrivenTesting.main;
+package org.rd.lessons.Lesson18JUnitTestNGTestCerceveleriveVeriOdakliTestDataDrivenTesting;
 
-import Lesson18JUnitTestNGTestCerceveleriveVeriOdakliTestDataDrivenTesting.Customer;
+import Lesson18JUnitTestNgTestCerceveleriveVeriOdakliTestDataDrivenTesting.Customer;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 

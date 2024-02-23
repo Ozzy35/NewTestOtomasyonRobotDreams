@@ -1,0 +1,67 @@
+1- Daha önce yazdığınız muhasebe maaş/prim hesaplama sınıfı        (Ödev 5-Lesson6) için bir test yazın. Testi yapılandırmak için yapılandırma dosyası mekanizmasını ekleyin.
+2- Muhasebe maaş/prim hesaplama sınıfı için yazdığınız testleri veri sağlayıcıları kullanarak yeniden yazın.
+Not: Her maddeyi ayrı ayrı yapabilirsiniz.
+------------------------------------------------------------
+
+Kendi TestNG xml ni demoqa.com testi uzerinde olusturdum
+Daha sonra kodları TestNG uzeriden calıstırdım.
+testng deki java class ından calıstırmadım, TestNG.xml dosyasından
+ calıstırdım
+kendı testNG xml ornekdeki gibi olusturdum
+ve projeme entegre ettim daha sonrasında kodalrımız testng.xml üzerinden
+calıstırabılırız, jaca class uzerinde aynı avantajı saglamıyor!
+
+
+------------------------------------------
+maaş hesaplama için unit test yazman
+isteniyor bunu da testng.xml ile çalıştırman
+ gerekiyor
+ ---
+ junıt kısmındayız, depency ekledik
+------------------
+package Lesson18JUnitTestNgTestCerceveleriveVeriOdakliTestDataDrivenTesting;
+
+import lombok.Getter;
+import lombok.Setter;
+
+public class BonusHesabi {
+
+    @Setter
+    @Getter
+    String name;
+    @Setter
+    @Getter
+    double salary;
+    @Setter
+    @Getter
+    int workHours;
+    double bonus;
+
+    public BonusHesabi(String name, double salary, int workHours) {
+        this.name = name;
+        this.salary = salary;
+        this.workHours = workHours;
+    }
+
+    public void bonus() {
+        if (this.workHours > 25) {
+            this.bonus = (workHours - 25) * 1000;
+            System.out.println("Extra çalışma saatlerine uygulanan bonus miktarı : 1000 TL " + this.bonus);
+        } else {
+            System.out.println("Bonus almaya hak kazanmadınız. ");
+
+        }
+    }
+
+    public void printInfo() {
+        System.out.println("  ");
+        System.out.println("*******************************");
+        System.out.println("Çalışanın adı:" + getName());
+        System.out.println("Çalışsanın maaşı:" + getSalary());
+        System.out.println("Çalışanın çalışma saatleri: " + getWorkHours());
+        System.out.println("*********************************");
+
+        bonus(); //Constructors
+
+    }
+}

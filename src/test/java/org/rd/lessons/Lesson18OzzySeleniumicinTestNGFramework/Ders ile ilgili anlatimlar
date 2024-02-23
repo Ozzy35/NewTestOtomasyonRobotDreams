@@ -1,0 +1,45 @@
+Class :testNG gruplandırma:
+package org.rd.lessons.Lesson18Odev13;
+
+import org.testng.annotations.Test;
+
+public class BonuHesabiTest {
+
+    @Test(groups = {"Grup A"})
+
+    public void test1() {
+
+        System.out.println("Test 1");
+    }
+
+    @Test(groups = {"Grup B"})
+
+    public void test2() {
+
+        System.out.println("Test 2");
+    }
+
+    @Test(groups = {"Grup C","Grup A"})
+
+    public void test3() {
+
+        System.out.println("Test 3");
+    }
+}
+
+
+
+
+testng.xml dosyası ıcıne:
+
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Suite1" verbose="1">
+    <test name="TestNG">
+        <classes>
+            <class name="org.rd.lessons.Lesson18OzzySeleniumicinTestNGFramework.CorrectTestNG"/>
+        </classes>
+    </test>
+
+</suite
+

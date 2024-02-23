@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="test suite">
+    <test name="Grup Bulma">
+        <groups>
+            <run>
+                <include name="Grup B"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="Lesson6OperatorveKosullar.BonusHesabiTest"/>
+        </classes>
+    </test>
+
+</suite>
+
