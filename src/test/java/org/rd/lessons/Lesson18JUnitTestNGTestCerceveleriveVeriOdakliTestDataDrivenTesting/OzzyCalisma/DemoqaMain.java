@@ -48,11 +48,7 @@ public class DemoqaMain {
         WebElement submitButton= driver.findElement(By.id("submit"));
         submitButton.click();
 
-
-
-
-
-
+        
 
     }
 
