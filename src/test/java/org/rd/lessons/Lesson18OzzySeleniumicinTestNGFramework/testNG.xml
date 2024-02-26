@@ -1,10 +1,20 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 
 <suite name="Suite1" verbose="1">
+<<<<<<< HEAD:src/test/java/org/rd/lessons/Lesson18OzzySeleniumicinTestNGFramework/testNG.xml
     <test name="TestNG">
         <classes>
             <class name="org.rd.lessons.Lesson18OzzySeleniumicinTestNGFramework.CorrectTestNG"/>
         </classes>
     </test>
 
+=======
+    <test name="TestNg">
+        <classes>
+            <class name="TestNG"/>
+        </classes>
+    </test>
+
+
+>>>>>>> origin/main:src/test/java/org/rd/lessons/Lesson18JUnitTestNGTestCerceveleriveVeriOdakliTestDataDrivenTesting/OzzyCalisma/testNG.xml
 </suite>
