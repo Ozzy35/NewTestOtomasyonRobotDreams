@@ -43,3 +43,26 @@ testng.xml dosyası ıcıne:
 
 </suite
 
+===========================
+TestNG nin yapısı ve Eklenmesi
+TestNG Annotations
+XML olusturma
+Include ve Exclude Metodlar
+------------
+yapılanlar:
+Kendi TestNG xml ni demoqa.com testi uzerinde olusturdum
+Daha sonra kodları TestNG uzeriden calıstırdım.
+testng deki java class ından calıstırmadım, TestNG.xml dosyasından
+ calıstırdım
+kendı testNG xml ornekdeki gibi olusturdum
+ve projeme entegre ettim daha sonrasında kodalrımız testng.xml üzerinden
+calıstırabılırız, jaca class uzerinde aynı avantajı saglamıyor!
+
+
+====
+XML DISARIDAN CALISTIRMAYA OLANAK SAGLIYOR
+
+=====
+@DATAPROVİDER
+ayni case farkli durumlarda data icin farkli konfigruayonalar  calistirmamıza gerek durumlardsa data provıder
+kullanarak tek bır senaryo yazıyoruz o senaryoyo data drıve r yapısıdan tekrar tekrar kosuyoruz

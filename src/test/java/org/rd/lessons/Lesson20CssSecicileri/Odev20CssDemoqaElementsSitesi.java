@@ -32,16 +32,18 @@ public class Odev20CssDemoqaElementsSitesi {
             System.out.println("Consent butonu bulunamadı veya tıklanabilir olmadı.");
 
         } finally {
-            WebElement buttonsTikla = driver.findElement(By.cssSelector("div[class='element-list collapse show'] li[id='item-4'] span[class='text']"));
-            buttonsTikla.click();
+            WebElement linkButtons = driver.findElement(By.cssSelector("div[class='element-list collapse show'] li[id='item-4'] span[class='text']"));
+            linkButtons.click();
 
-            WebElement clickMe =driver.findElement(By.cssSelector(""));
-            clickMe.click();
-            clickMe.getText();
+            WebElement clickMeButton = driver.findElement(By.cssSelector(".col-md-6 div:nth-of-type(3) > .btn"));
+            clickMeButton.click();
+
+            WebElement myMessage = driver.findElement(By.cssSelector("#dynamicClickMessage"));
+            System.out.println(myMessage.getText());
 
             driver.quit();
         }
-        System.out.println("Ana pencere başlığı: " + driver.getTitle());
+//        System.out.println("Ana pencere başlığı: " + driver.getTitle());
 
      }
 }

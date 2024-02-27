@@ -34,16 +34,16 @@ public class Odev21XpathDemoqaElementsTests {
             System.out.println("Consent butonu bulunamadı veya tıklanabilir olmadı.");
 
         } finally {
-            WebElement buttonsTikla = driver.findElement(By.cssSelector("div[class='element-list collapse show'] li[id='item-4'] span[class='text']"));
-            buttonsTikla.click();
+            WebElement linkButtons = driver.findElement(By.xpath("//span[normalize-space()='Buttons']"));
+            linkButtons.click();
 
-            WebElement clickMe = driver.findElement(By.cssSelector("#MYkKw"));
-            clickMe.click();
-            clickMe.getText();
+            WebElement clickMeButton = driver.findElement(By.xpath("//button[@id='DuBba']"));
+            clickMeButton.click();
 
-            driver.quit();
+            WebElement myMessage = driver.findElement(By.xpath("//button[@id='DuBba']"));
+            System.out.println(myMessage.getText());
         }
-        System.out.println("Ana pencere başlığı: " + driver.getTitle());
+//        System.out.println("Ana pencere başlığı: " + driver.getTitle());
 
 
 

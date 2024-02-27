@@ -3,7 +3,7 @@
 <suite name="Suite1" verbose="1">
     <test name="TestNG">
         <classes>
-            <class name="org.rd.lessons.Lesson18OzzySeleniumicinTestNGFramework.DemoqaMain"/>
+            <class name="org.rd.lessons.Lesson18Odev13.BonuHesabiTestNG"/>
         </classes>
     </test>
 </suite>
