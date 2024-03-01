@@ -37,7 +37,7 @@ public class Odev21XpathDemoqaElementsTests {
             WebElement linkButtons = driver.findElement(By.xpath("//span[normalize-space()='Buttons']"));
             linkButtons.click();
 
-            WebElement clickMeButton = driver.findElement(By.xpath("//button[@id='DuBba']"));
+            WebElement clickMeButton = driver.findElement(By.xpath("(//p[contains(.,'Consent')]"));
             clickMeButton.click();
 
             WebElement myMessage = driver.findElement(By.xpath("//button[@id='DuBba']"));
